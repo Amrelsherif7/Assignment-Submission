@@ -22,7 +22,7 @@ def numbers_and_strings():
     length = len(z)
 
     # Concatenate variable y with string " Great"
-    m = y + ' Great'
+    m = y + ' is Great'
 
     # Replace "Great" with "good" in variable m and assign it to a new variable n
     n = m.replace('Great', 'good')
@@ -73,7 +73,7 @@ def dictionaries():
     #   quantity => 17
     #   color => "red"
     f = {'fruit': "apple",
-         'quantity': 17,
+         'quantity': 4,
          'color': "red"}
     # Get the item in dictionary f that the key "fruit" maps to
     a = f['fruit']
